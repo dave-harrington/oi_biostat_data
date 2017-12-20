@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1513353028451.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1D705730",
+    "lastKnownWriteTime" : 4329038920,
+    "last_content_update" : 1513353028451,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1EAD759",
+        "caption" : "statins",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=statins&cache_key=1EAD759",
+        "displayedObservations" : 4095,
+        "environment" : "",
+        "object" : "statins",
+        "preview" : 0,
+        "totalObservations" : 4095,
+        "variables" : 31
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

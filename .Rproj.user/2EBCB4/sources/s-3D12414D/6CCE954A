@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1513184862575.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6CCE954A",
+    "lastKnownWriteTime" : 1513355765,
+    "last_content_update" : 1513355765429,
+    "path" : "~/Dropbox/working_files/open_intro/oi_biostat/data_working_dir/R_code/OIBioStat_package/package_prep_code.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "17,36",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

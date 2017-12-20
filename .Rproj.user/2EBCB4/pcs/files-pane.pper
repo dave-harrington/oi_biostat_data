@@ -1,0 +1,9 @@
+{
+    "path" : "~/OIBioStat/man",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
