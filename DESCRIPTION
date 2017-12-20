@@ -1,10 +1,10 @@
 Package: OIBioStat
 Type: Package
-Title: OIBioStat Companion Package
+Title: Data Package for OpenIntro Biostatistics
 Version: 0.2.0
 Authors@R: person("Morgan", "Breitmeyer", , "morganbreitmeyer@gmail.com", role = c("aut", "cre"))
 Description: This package contains the datasets that accompany the Open Intro
-    Biostat Companion Book.
+    Biostat Book.
 License: No licensing yet.
 LazyData: FALSE
 RoxygenNote: 5.0.1.9000
