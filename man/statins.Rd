@@ -27,8 +27,8 @@ Data from the Prevention of REnal and Vascular END-stage Disease (PREVEND) study
     \item{\code{DBP}}{Diastolic blood pressure, in mmHg}
     \item{\code{MAP}}{Mean arterial pressure, in mmHg }
     \item{\code{eGFR}}{Estimated glomerular filtration rate, a measure of kidney function. Low values indicate possible kidney damage, in mL/min.}
-    \item{\code{Albuminuria.1}}{Albuminuria (mg/24hr) in two categories. Numeric vector: $0 = (<30)$; $1 = (\geq 30)$}
-    \item{\code{Albuminuria.2}}{Albuminuria (mg/24hr) in three categories.  Numeric:  $ 0 = (0 \textrm{ to } < 10)$, $ 1 = (10 to <30)$; $3 = (\geq 30)$. }
+    \item{\code{Albuminuria.1}}{Albuminuria (mg/24hr) in two categories. Numeric vector: 0 = (< 30); 1 = (\eqn{\ge} 30)}
+    \item{\code{Albuminuria.2}}{Albuminuria (mg/24hr) in three categories.  Numeric:  0 = (0  to < 10), 1 = (10 to < 30); 3 = (\eqn{\ge} 30).}
     \item{\code{Chol}}{Total cholesterol, in mmol/L.}
     \item{\code{HDL}}{HDL cholesterol, in mmol/L.}
     \item{\code{Statin}}{Statin use at enrollment. Numeric vector: 0 = No; 1 = Yes. }
