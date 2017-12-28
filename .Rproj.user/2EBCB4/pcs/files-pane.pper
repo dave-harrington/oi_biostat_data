@@ -1,9 +1,0 @@
-{
-    "path" : "~/oi_biostat_data",
-    "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 2
-        }
-    ]
-}
