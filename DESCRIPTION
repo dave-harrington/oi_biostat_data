@@ -1,10 +1,9 @@
-Package: OIBioStat
+Package: oibiostat
 Type: Package
 Title: Data Package for OpenIntro Biostatistics
 Version: 0.2.0
-Authors@R: person("Morgan", "Breitmeyer", , "morganbreitmeyer@gmail.com", role = c("aut", "cre"))
-Description: This package contains the datasets that accompany the Open Intro
-    Biostat Book.
+Authors@R: c(person("Morgan", "Breitmeyer", email = "morganbreitmeyer@gmail.com", role = c("aut")), person("Dave", "Harrington", email = "davidharrington@g.harvard.edu", role = c("aut", "cre")), person("Julie", "Vu", email = "julievu777@gmail.com", role = c("aut")))
+Description: This package contains the datasets used in the OpenIntro Biostatistics text.
 License: No licensing yet.
 LazyData: FALSE
 RoxygenNote: 5.0.1.9000
