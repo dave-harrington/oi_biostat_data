@@ -1,8 +1,8 @@
-\name{wdi.2011}
-\alias{wdi.2011}
+\name{wdi}
+\alias{wdi}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-World Development Indicators Data
+World Development Indicators Data from 2011
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -42,7 +42,7 @@ wdi.2011(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-data(wdi.2011)
+data(wdi)
 %% maybe str(baby.smoke) ; plot(baby.smoke) ...
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

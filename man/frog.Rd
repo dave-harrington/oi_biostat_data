@@ -1,5 +1,5 @@
-\name{frog.altitude.data}
-\alias{frog.altitude.data}
+\name{frog}
+\alias{frog}
 \docType{data}
 \title{
 Frog Maternal Investment Based on Altitude in Tibetan Plateau
@@ -33,7 +33,7 @@ Chen, W., et al. Maternal investment increases with altitude in a frog on the Ti
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(frog_altitude_data)
+data(frog)
 %% ## maybe str(frog_altitude_data) ; plot(frog_altitude_data) ...
 }
 \keyword{datasets}

@@ -1,8 +1,8 @@
-\name{diabetes.cdc.2012}
-\alias{diabetes.cdc.2012}
+\name{diabetes.prev}
+\alias{diabetes.prev}
 \docType{data}
 \title{
-Diabetes CDC Data
+Diabetes Prevalence Data (CDC)
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~

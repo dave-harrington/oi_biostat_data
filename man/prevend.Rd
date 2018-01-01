@@ -1,11 +1,11 @@
-\name{statins}
-\alias{statins}
+\name{prevend}
+\alias{prevend}
 \docType{data}
 \title{
-Statins dataset
+prevend dataset
 }
 \description{
-Data from the Prevention of REnal and Vascular END-stage Disease (PREVEND) study, which took place between 2003 and 2006 in the Netherlands.  The study collected various demographic and cardiovascular risk factors, including assessments of cognitive function.
+Data from the Prevention of REnal and Vascular END-stage Disease (PREVEND) study, which took place in the Netherlands.  The study collected various demographic and cardiovascular risk factors. This dataset is from the third survey, which participants completed in 2003-2006; data is provided for 4,095 individuals who completed cognitive testing.
 }
 \usage{data(statins)}
 \format{

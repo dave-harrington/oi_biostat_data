@@ -7,3 +7,5 @@ Description: This package contains the datasets used in the OpenIntro Biostatist
 License: No licensing yet.
 LazyData: FALSE
 RoxygenNote: 5.0.1.9000
+Imports: openintro,
+    NHANES
