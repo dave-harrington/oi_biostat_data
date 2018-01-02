@@ -8,7 +8,7 @@ World Development Indicators Data from 2011
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-wdi.2011(x)
+wdi(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
