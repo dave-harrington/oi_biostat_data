@@ -14,7 +14,7 @@ Dataset that corresponds to chapter 5, example of paired data.
     \item{\code{swimmer.number}}{Index of a given swimmer}
     \item{\code{wet.suit.velocity}}{Velocity wearing a wet suit}
     \item{\code{swim.suit.velocity}}{Velocity wearing a swim suit}
-    \item{\code{velocity.diff}{Velocity difference, calculated as \code{wet.suit.velocity-swim.suit.velocity}}}
+    \item{\code{velocity.diff}}{Velocity difference, calculated as \code{wet.suit.velocity-swim.suit.velocity}}
   }
 }
 \source{
