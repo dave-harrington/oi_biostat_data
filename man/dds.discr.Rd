@@ -1,20 +1,20 @@
 \name{dds.discr}
 \alias{dds.discr}
 \docType{data}
-\title{De
+\title{Discrimination in Developmental Disability Support
 }
-\description{Discrimination in developmental disability support
+\description{Represents a sample of 1,000 DDS consumers, based on data from the State of California
 }
 \usage{data("dds.discr")}
 \format{
   A data frame with 1000 observations on the following 6 variables.
   \describe{
-    \item{\code{id}}{a numeric vector}
-    \item{\code{age.cohort}}{a factor with levels \code{0-5} \code{6-12} \code{13-17} \code{18-21} \code{22-50} \code{51+}}
-    \item{\code{age}}{a numeric vector}
-    \item{\code{gender}}{a factor with levels \code{Female} \code{Male}}
-    \item{\code{expenditures}}{a numeric vector}
-    \item{\code{ethnicity}}{a factor with levels \code{American Indian} \code{Asian} \code{Black} \code{Hispanic} \code{Multi Race} \code{Native Hawaiian} \code{Other} \code{White not Hispanic}}
+    \item{\code{id}}{Unique identification code for each resident}
+    \item{\code{age.cohort}}{Age as sorted into six groups \code{0-5} years, \code{6-12} years, \code{13-17} years, \code{18-21} years, \code{22-50} years, and \code{51+} years}
+    \item{\code{age}}{Age, measured in years}
+    \item{\code{gender}}{Gender, recorded as either \code{Female} or \code{Male}.}
+    \item{\code{expenditures}}{Amount of expenditures spent by the State on an individual annually, measured in USD}
+    \item{\code{ethnicity}}{Ethnic group, recorded as either \code{American Indian},  \code{Asian}, \code{Black}, \code{Hispanic}, \code{Multi Race}, \code{Native Hawaiian}, \code{Other}, or \code{White not Hispanic}}
   }
 }
 \details{
@@ -27,7 +27,6 @@
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(dds.discr)
-## maybe str(dds.discr) ; plot(dds.discr) ...
+dds.discr[1:5,]
 }
 \keyword{datasets}
