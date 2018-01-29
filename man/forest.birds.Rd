@@ -21,11 +21,10 @@ These data are part of a larger study of habitat fragmentation.
 }
 \details{
 %%  ~~ If necessary, more details than the __description__ above ~~
-The original data from the study appears in Loyn (1987). Nature Conservation: The Role of Remnants of Native Vegetation, Surrey Beatty and Sons, Chipping Norton,NSW.
 }
 \source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
-The original data from the study appears in Loyn (1987). Nature Conservation: The Role of Remnants of Native Vegetation, Surrey Beatty and Sons, Chipping Norton,NSW.
+The original data from the study appears in Loyn (1987). Nature Conservation: The Role of Remnants of Native Vegetation. Saunders DA, Arnold GW,  Burbridge AA, and Hopkins AJM eds. Surrey Beatty and Sons, Chipping Norton, NSW, 65-77
 
 The data in this package is based in data used in Logan, 2010, Biostatistical Design and Analysis Using R: A Practical Guide.
 }
