@@ -8,4 +8,5 @@ License: No licensing yet.
 LazyData: FALSE
 RoxygenNote: 5.0.1.9000
 Imports: openintro,
-    NHANES
+    NHANES,
+    hddplot
