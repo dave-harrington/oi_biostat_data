@@ -1,15 +1,15 @@
-\name{golub}
-\alias{golub}
+\name{golub.test}
+\alias{golub.test}
 \docType{data}
 \title{
-Golub Data
+Golub Test (10 observations from golub matrix)
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
-\usage{data("golub")}
+\usage{data("golub.test")}
 \format{
-  A data frame with 72 observations on the following 7135 variables.
+  A data frame with 10 observations on the following 7135 variables.
   \describe{
     \item{\code{Samples}}{a numeric vector}
     \item{\code{BM.PB}}{a factor with levels \code{BM} \code{PB}}
@@ -7158,7 +7158,7 @@ Golub Data
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(golub)
-## maybe str(golub) ; plot(golub) ...
+data(golub.test)
+## maybe str(golub.test) ; plot(golub.test) ...
 }
 \keyword{datasets}
