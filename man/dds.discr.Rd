@@ -27,6 +27,7 @@
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
+data("dds.discr")
 dds.discr[1:5,]
 }
 \keyword{datasets}

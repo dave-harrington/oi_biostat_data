@@ -12,9 +12,6 @@ forest.birds = rename(forest.birds, c("ABUND" = "abundance",
                                       "GRAZE" = "grazing.intensity",
                                       "ALT" = "altitude"))
 
-forest.birds$log.area = log(forest.birds$patch.area)
-forest.birds$log.distance = log(forest.birds$distance.nearest.patch)
-
 
 forest.birds$grazing.intensity = factor(forest.birds$grazing.intensity,
                                         levels = c(1, 2, 3, 4, 5),
@@ -23,5 +20,5 @@ forest.birds$grazing.intensity = factor(forest.birds$grazing.intensity,
                                                    "heavy"))
 
 
-use_data(forest.birds, overwrite = TRUE)
+devtools::use_data(forest.birds, overwrite = TRUE)
 

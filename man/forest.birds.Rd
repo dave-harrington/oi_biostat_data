@@ -6,19 +6,19 @@ Abundance of forest birds in 56 forest patches in Australia
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
-These data are part of a larger study of habitat fragmentation.
+These data are part of a larger study on the effects of habitat fragmentation, the process in which land development disrupts the native habitat of certin species. The dataset has variables on forest bird abundance in a forest patch (typically the response of interest) and features of patch.
 }
-\usage{data("cdc.samp")}
+\usage{data("forest.birds")}
 \format{
-  A data frame with 56 observations on the following 9 variables.
+  A data frame with 56 observations on the following 7 variables.
   \describe{
     \item{\code{abundance}}{Numeric vector. Average number of forest birds observed in the patch, as calculated from several independent 20-minute counting sessions.}
-    \item{\code{area}}{Numerica vector.  The area of the patch. Areas were originally measured in hectares; 1 hectare is 10,000 square meters and approximately 2.47 acres.}
-    \item{\code{log.area}}{Numerica vector. Natural log of the area of the patch.}
-    \item{\code{distance}}{Numeric vector.  Distance to the nearest patch, originally measured in kilometers.}
-    \item{\code{log.distance}}{Numeric vector. Natural log of the distance to the nearest patch.}
-    \item{\code{altitude}}{Numeric vector. Altitude of the patch, measured in meters.}
+    \item{\code{patch.area}}{Numerica vector.  The area of the patch. Areas were measured in hectares; 1 hectare is 10,000 square meters and approximately 2.47 acres.}
+    \item{\code{years.isolation}}{Numeric vector.}
+    \item{\code{distance.nearest.patch}}{Numeric vector.  Distance to the nearest patch, measured in kilometers.}
+    \item{\code{distance.larger.patch}}{Numeric vector.  Distance to the nearest patch that is larger than the current patch, measured in kilometers.}
     \item{\code{grading.intensity}}{Factor.  A score indicating the extent of livestock grazing. The categories are: "light", "less than average", "average", "moderately heavy", "heavy".}
+        \item{\code{altitude}}{Numeric vector. Altitude of the patch, measured in meters.}
     }
 }
 \details{
@@ -34,6 +34,8 @@ The data in this package is based in data used in Logan, 2010, Biostatistical De
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-%% ## maybe str(LEAP) ; plot(LEAP) ...
+data("forest.birds")
+hist(forest.birds$abundance)
+table(forest.birds$grazing.intensity)
 }
 \keyword{datasets}
