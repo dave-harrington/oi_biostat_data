@@ -13,8 +13,8 @@ These data are part of a larger study on the effects of habitat fragmentation, t
   A data frame with 56 observations on the following 7 variables.
   \describe{
     \item{\code{abundance}}{Numeric vector. Average number of forest birds observed in the patch, as calculated from several independent 20-minute counting sessions.}
-    \item{\code{patch.area}}{Numerica vector.  The area of the patch. Areas were measured in hectares; 1 hectare is 10,000 square meters and approximately 2.47 acres.}
-    \item{\code{years.isolation}}{Numeric vector.}
+    \item{\code{patch.area}}{Numeric vector.  The area of the patch. Areas were measured in hectares; 1 hectare is 10,000 square meters and approximately 2.47 acres.}
+    \item{\code{year.of.isolation}}{The year the patch was isolated by fragmentation of local environment.}
     \item{\code{distance.nearest.patch}}{Numeric vector.  Distance to the nearest patch, measured in kilometers.}
     \item{\code{distance.larger.patch}}{Numeric vector.  Distance to the nearest patch that is larger than the current patch, measured in kilometers.}
     \item{\code{grading.intensity}}{Factor.  A score indicating the extent of livestock grazing. The categories are: "light", "less than average", "average", "moderately heavy", "heavy".}
@@ -22,7 +22,6 @@ These data are part of a larger study on the effects of habitat fragmentation, t
     }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
 }
 \source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
