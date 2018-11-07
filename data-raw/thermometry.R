@@ -9,6 +9,4 @@ thermometry$gender <- factor(thermometry$gender,
                              labels = c("female", "male"))
 
 
-devtools::use_data(thermometry, overwrite = TRUE)
-
-save(thermometry, file = "thermometry.Rdata")
+usethis::use_data(thermometry, overwrite = TRUE)
