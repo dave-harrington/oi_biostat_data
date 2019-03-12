@@ -27,7 +27,7 @@ The dataset provides de-identified and randomly sampled emergency medical record
     \item{\code{HIV_IND}}{A factor variable 3 levels: HIV indicator; NULL = does not have the disease, 1 = has the disease, active now, 2 = had the disease, inactive now}
     \item{\code{HYPERTENSION_IND}}{A factor variable 3 levels: hypertension indicator; NULL = does not have the disease, 1 = has the disease, active now, 2 = had the disease, inactive now}
     \item{\code{OBESITY_IND}}{A factor variable 3 levels: obesity indicator according to BMI; NULL = does not have the disease, 1 = has the disease, active now, 2 = had the disease, inactive now}
-    \item{\code{WP_RATIO}}{A numeric variable: waist to hip ratio; waist and hip circumference measured in inches; waist/hip}
+    \item{\code{WAIST_CIR}}{A numeric variable: waist circumference measured in inches}
     \item{\code{AGE}}{A numeric variable: age in years}
   }
 }
