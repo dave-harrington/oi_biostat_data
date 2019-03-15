@@ -11,7 +11,7 @@ The dataset provides de-identified and randomly sampled emergency medical record
 \format{
   A data frame with 592 observations on the following 18 variables.
   \describe{
-    \item{\code{MEDICAL_RECORD_NUMBER}}{A character variable: de-identified id for patients}
+    \item{\code{CASE_ID}}{A character variable: de-identified id for patients}
     \item{\code{TEST_CODE_NAME}}{A character variable: lab test name}
     \item{\code{TEST_RESULT_NUMERIC}}{A numeric variable: lab result for triglyceride level, measured in mg/dL}
     \item{\code{SEX_NAME}}{A factor variable with two levels: gender; FEMALE, MALE}
