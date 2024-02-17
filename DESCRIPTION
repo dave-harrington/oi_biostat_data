@@ -1,16 +1,20 @@
 Package: oibiostat
 Type: Package
-Title: Data Package for OpenIntro Biostatistics
+Title: Data Package for OpenIntro Biostatistics, Introduction to Statistics
+    for the Life and Biomedical Sciences
 Version: 0.3.0
-Authors@R: c(person("Morgan", "Breitmeyer", email = "morganbreitmeyer@gmail.com", role = "aut"), person("Dave", "Harrington", email = "davidharrington@g.harvard.edu", role = c("aut", "cre")), person("Julie", "Vu", email = "julievu777@gmail.com", role = c("aut")))
-Description: This package contains the datasets used in the OpenIntro Biostatistics text.
-License: No licensing yet.
+Authors@R: c(person("Morgan", "Breitmeyer", email = "morganbreitmeyer@gmail.com", 
+    role = "aut"), 
+    person("Dave", "Harrington", email = "davidharrington@g.harvard.edu",
+    role = c("aut", "cre")), 
+    person("Julie", "Vu", email = "julievu777@gmail.com", role = c("aut")))
+Description: This package contains the datasets used in the OpenIntro Biostatistics 
+    text, Introduction to Statistics for the Life and Biomedical Sciences.
+License: GPl-3.
 LazyData: TRUE
 RoxygenNote: 7.3.1
-Imports: 
-    openintro,
-    NHANES,
-    tibble
+Imports: tibble
 Depends: 
     R (>= 2.10)
 Encoding: UTF-8
+Roxygen: list(markdown = TRUE)

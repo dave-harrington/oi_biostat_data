@@ -10,11 +10,7 @@
 
 ## code to prepare `hyperuricemia` dataset goes here
 
-usethis::use_data(hyperuricemia, overwrite = TRUE)
 
-# code to clean data.
-# rOxygen documentation should appear above this section
-#
 
 #
 library(readxl)
