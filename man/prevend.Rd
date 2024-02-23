@@ -8,37 +8,37 @@
 \format{
 A tibble with 4095 rows and 31 variables:
 \describe{
-  \item{Casenr}{case number, numberic}
-  \item{Age}{age in years, recorded at time of enrollment.}
-  \item{Gender}{Numeric vector: 0 = males; 1 = females.}
-  \item{Ethnicity}{Numeric vector: 0 = Western European; 1 = African; 2 = Asian; 3 = Other.}
-  \item{Education}{Highest level of education. Numeric: 0 primary school; 1 = lower secondary education; 3 = university.}
-  \item{RFFT}{Performance on the Ruff Figural Fluency Test. Scores range from 0 (worst) to 175 (best).}
-  \item{VAT}{Visual Association Test score. The VAT is a learning task based on image recognition. Scores may range from 0 (worst) to 12 (best)}
-  \item{CVD}{History of cardiovascular event. Numeric vector: 0 = No; 1 = Yes.}
-  \item{DM}{Diabetes mellitus status at enrollment. Numeric vector: 0 = No; 1 = Yes.}
-  \item{Smoking}{Smoking at enrollment. numeric vector: 0 = No; 1 = Yes.}
-  \item{Hypertension}{status of hypertension at enrollment. Numeric vector: 0 = No; 1 = Yes.}
-  \item{BMI}{Body mass index, in kg/m^2}
-  \item{SBP}{Systolic blood pressure, in mmHg}
-  \item{DBP}{Diastolic blood pressure, in mmHg}
-  \item{MAP}{Mean arterial pressure, in mmHg}
-  \item{eGFR}{Estimated glomerular filtration rate, a measure of kidney function. Low values indicate possible kidney damage, in mL/min.}
-  \item{Albuminuria.1}{Albuminuria (mg/24hr) in two categories. Numeric vector: 0 = (< 30); 1 = (\eqn{\ge} 30)}
-  \item{Albuminuria.2}{Albuminuria (mg/24hr) in three categories.  Numeric:  0 = (0  to < 10), 1 = (10 to < 30); 3 = (\eqn{\ge} 30).}
-  \item{Chol}{Total cholesterol, in mmol/L.}
-  \item{HDL}{HDL cholesterol, in mmol/L.}
-  \item{Statin}{Statin use at enrollment. Numeric vector: 0 = No; 1 = Yes. }
-  \item{Solubility}{Statin solubility.}
-  \item{Days}{Total duration of statin use, in days.}
-  \item{Years}{Total duration of statin use, in years.}
-  \item{DDD}{Defined daily dose of the statin.  Numeric vector: From the PLOS One paper, "DDD is defined by the WHO as the drug units representing dosages with approximately similar efficacy. One DDD corresponds to the following dosage for each statin respectively: Simvastatin 30 mg, Pravastatin 30 mg, Fluvastatin 60 mg, Atorvastatin 20 mg and Rosuvastatin 10 mg."}
-  \item{FRS}{Framingham risk score. Numeric vector. The score, a measure of risk for a cardivascular event within 10 years.  Higher values imply increased use.  For details see D’Agostino RBS, Vasan RS, Pencina MJ, Wolf PA, Cobain M, et al. (2008) General cardiovascular risk profile for use in primary care: The framingham heart study. Circulation 117: 743–753.}
-  \item{PS}{Propensity score of statin use. Numeric vector. See the PLOS One paper for the model used to calculate the score}
-  \item{PSquint}{Quintile of PS. Numeric vector.}
-  \item{GRS}{Indicator for random sample of 1638 Groningen residents in the study. Numeric vector.}
-  \item{Match_1}{Statin users and non-users matched 1:1 on age and educational level. Matched pairs share a common integer label. Numeric vector. }
-  \item{Match_2}{Statin users and non-users matched 1:1 on Framingham risk score. Matched pairs share a common integer label. Numeric vector.}
+\item{Casenr}{case number, numberic}
+\item{Age}{age in years, recorded at time of enrollment.}
+\item{Gender}{Numeric vector: 0 = males; 1 = females.}
+\item{Ethnicity}{Numeric vector: 0 = Western European; 1 = African; 2 = Asian; 3 = Other.}
+\item{Education}{Highest level of education. Numeric: 0 primary school; 1 = lower secondary education; 3 = university.}
+\item{RFFT}{Performance on the Ruff Figural Fluency Test. Scores range from 0 (worst) to 175 (best).}
+\item{VAT}{Visual Association Test score. The VAT is a learning task based on image recognition. Scores may range from 0 (worst) to 12 (best)}
+\item{CVD}{History of cardiovascular event. Numeric vector: 0 = No; 1 = Yes.}
+\item{DM}{Diabetes mellitus status at enrollment. Numeric vector: 0 = No; 1 = Yes.}
+\item{Smoking}{Smoking at enrollment. numeric vector: 0 = No; 1 = Yes.}
+\item{Hypertension}{status of hypertension at enrollment. Numeric vector: 0 = No; 1 = Yes.}
+\item{BMI}{Body mass index, in kg/m^2}
+\item{SBP}{Systolic blood pressure, in mmHg}
+\item{DBP}{Diastolic blood pressure, in mmHg}
+\item{MAP}{Mean arterial pressure, in mmHg}
+\item{eGFR}{Estimated glomerular filtration rate, a measure of kidney function. Low values indicate possible kidney damage, in mL/min.}
+\item{Albuminuria.1}{Albuminuria (mg/24hr) in two categories. Numeric vector: 0 = (< 30); 1 = (\eqn{\ge} 30)}
+\item{Albuminuria.2}{Albuminuria (mg/24hr) in three categories.  Numeric:  0 = (0  to < 10), 1 = (10 to < 30); 3 = (\eqn{\ge} 30).}
+\item{Chol}{Total cholesterol, in mmol/L.}
+\item{HDL}{HDL cholesterol, in mmol/L.}
+\item{Statin}{Statin use at enrollment. Numeric vector: 0 = No; 1 = Yes. }
+\item{Solubility}{Statin solubility.}
+\item{Days}{Total duration of statin use, in days.}
+\item{Years}{Total duration of statin use, in years.}
+\item{DDD}{Defined daily dose of the statin.  Numeric vector: From the PLOS One paper, "DDD is defined by the WHO as the drug units representing dosages with approximately similar efficacy. One DDD corresponds to the following dosage for each statin respectively: Simvastatin 30 mg, Pravastatin 30 mg, Fluvastatin 60 mg, Atorvastatin 20 mg and Rosuvastatin 10 mg."}
+\item{FRS}{Framingham risk score. Numeric vector. The score, a measure of risk for a cardivascular event within 10 years.  Higher values imply increased use.  For details see D’Agostino RBS, Vasan RS, Pencina MJ, Wolf PA, Cobain M, et al. (2008) General cardiovascular risk profile for use in primary care: The framingham heart study. Circulation 117: 743–753.}
+\item{PS}{Propensity score of statin use. Numeric vector. See the PLOS One paper for the model used to calculate the score}
+\item{PSquint}{Quintile of PS. Numeric vector.}
+\item{GRS}{Indicator for random sample of 1638 Groningen residents in the study. Numeric vector.}
+\item{Match_1}{Statin users and non-users matched 1:1 on age and educational level. Matched pairs share a common integer label. Numeric vector. }
+\item{Match_2}{Statin users and non-users matched 1:1 on Framingham risk score. Matched pairs share a common integer label. Numeric vector.}
 }
 }
 \source{
