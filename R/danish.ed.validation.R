@@ -1,0 +1,45 @@
+#' Data from the Danish study on triage in the emergency department (ED)
+#' @name danish.ed.validation
+#' @docType data
+#' @references{https://sjtrem.biomedcentral.com/articles/10.1186/s13049-017-0458-x?report=reader}
+#' @source \url{doi:10.5061/dryad.m2bq5}
+#' @description
+#' Data from a prospective cohort study of triage scoring for an emergency
+#'    department (ED).  The study examined whether the use of patient level
+#'    measurements would improve an existing triage score. These data were used as
+#'    a test set (called validation in the manuscript) to examine the performance
+#'    of the model built using the training (primary) cohort.
+#'    some variable names have been changed for readability and for consistency
+#'    with the primary dataset, but the data on
+#'    18 variables for the 6,383 participants are otherwise unchanged.  Some variables
+#'    in the primary dataset do not appear in these data.
+#'
+#' @format A tibble with 6383 rows and 18 variables:
+#' \describe{
+#'    \item{mort30}{numeric, 1 if patient died within 30 days of admission, 0
+#'    otherwise}
+#'    \item{triage}{factor, triage score given at arrival to ED.
+#'    Values blue, green, yellow, orange, red, from lowest to highest priority
+#'    for treatment.  The value blue normally denotes severity not
+#'    warranting admission to the ED.  Participants coded blue
+#'    are in these data but not in the primary data.}
+#'    \item{age}{numeric, age in years, rounded to lower integer}
+#'    \item{sex}{factor, female/male}
+#'    \item{albumin}{numeric, serum albumin, in g/L}
+#'    \item{creatinine}{numeric, serum creatinine, in umol/L}
+#'    \item{hemaglobin}{numeric, serum hemaglobin, in mmol/L }
+#'    \item{potassium}{numeric, serum potassium, in mmol/L}
+#'    \item{leuk.count}{blood leukocyte count, in 10E9/L}
+#'    \item{sodium}{numeric, serum sodium, in mmol/L}
+#'    \item{c.react.protein}{numeric, serum C-reactive protein}
+#'    \item{oxygen.sat}{numeric, peripheral arterial oxygen saturation, %}
+#'    \item{resp.rate}{numeric, respiratory rate per minute}
+#'    \item{heart.rate}{numeric, heart rate, beats/min}
+#'    \item{systolic.bp}{numeric, systolic blood pressure, in mmHg}
+#'    \item{readmit.hosp}{factor, readmitted to hospital within 30 days,
+#'    yes/no}
+#'    \item{days.in.hosp}{numeric, number of days admitted to hospital}
+#'    \item{icu.status}{factor, patient admitted to ICU, yes/no}
+#'    }
+
+"danish.ed.validation"
