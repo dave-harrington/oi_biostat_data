@@ -1,0 +1,30 @@
+#' A dataframe of 60 rows and 9 variables used to illustrate inference on
+#'    demographic characteristics
+#'@name cdc.samp
+#' @docType data
+#' @source("http://www.openintro.org/stat/data/cdc.R")
+#'
+#' @description
+#' This dataset is a random sample of 60 individuals from a larger dataset of
+#'     20,000 in the Open Intro dataset.  The data were drawn from the the year
+#'     2000 Behavioral Risk Factors Surveillance System (https://www.cdc.gov/brfss/index.html)
+#'     conducted by the US Centers for Disease Control.
+#'
+#'@format A tibble with 60 rows and 9 variables:
+#'\describe{
+#'    \item{\code{genhlth}}{a factor with levels \code{excellent}, \code{very good}
+#'     \code{good}, \code{fair}, \code{poor}}
+#'    \item{\code{exerany}}{Numeric vector; 1 if the respondent exercised in the
+#'    past month and 0 otherwise.}
+#'    \item{\code{hlthplan}}{Numeric vector; 1 if the respondent has some form
+#'    of health coverage and 0 otherwise.}
+#'    \item{\code{smoke100}}{Numeric; 1 if the respondent has smoked at least 100
+#'    cigarettes in their entire life and 0 otherwise.}
+#'    \item{\code{height}}{Numeric; respondent's height in inches.}
+#'    \item{\code{weight}}{Numeric;  respondent's weight in pounds.}
+#'    \item{\code{wtdesire}}{Numeric; respondent's desired weight in pounds.}
+#'    \item{\code{age}}{Numeric; A numerical vector, respondent's age in years.}
+#'    \item{\code{gender}}{a factor with two levels \code{m} \code{f}}
+#'    }
+
+"cdc.samp"
