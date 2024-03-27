@@ -11,8 +11,13 @@
 #'     (out of a total population of approximately 250,000),
 #'     and includes information about age, gender, ethnicity, and the amount of
 #'     financial support per consumer provided by the DDS.The dataset is based
-#'     on recorded attributes of consumers,
-#'     but has been altered to maintain consumer privacy.
+#'     on recorded attributes of consumers,  but has been altered to maintain
+#'     consumer privacy.  From the Taylor and Mickel paper: "The data set originated
+#'     from DDS’s Client Master File. In order to remain in compliance
+#'     with California State Legislation,
+#'     the data have been altered to protect the rights and privacy of
+#'     specific individual consumers. The provided data set is based on
+#'     actual attributes of consumers."
 #'
 #' @format A tibble with 1000 rows and 6 variables:
 #' \format{
