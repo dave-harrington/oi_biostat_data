@@ -1,16 +1,18 @@
-library(plyr)
+library(dplyr)
 library(devtools)
 
 forest.birds = read.table("loyn.csv", header = T, sep = ",")
 
 
-forest.birds = rename(forest.birds, c("ABUND" = "abundance",
-                                      "AREA" = "patch.area",
-                                      "YR.ISOL" = "year.of.isolation",
-                                      "DIST" = "distance.nearest.patch",
-                                      "LDIST" = "distance.larger.patch",
-                                      "GRAZE" = "grazing.intensity",
-                                      "ALT" = "altitude"))
+forest.birds = rename(forest.birds,
+                      abundance = ABUND,
+                      patch.area = AREA,
+                      year.of.isolation = YR.ISOL,
+                      distance.nearest.patch = DIST,
+                      distance.larger.patch = LDIST,
+                      grazing.intensity = GRAZE,
+                      altitude = ALT)
+
 
 
 forest.birds$grazing.intensity = factor(forest.birds$grazing.intensity,
@@ -18,7 +20,7 @@ forest.birds$grazing.intensity = factor(forest.birds$grazing.intensity,
                                         labels = c("light", "less than average",
                                                    "average", "moderately heavy",
                                                    "heavy"))
+forest.birds$years.isolation = 1983 - forest.birds$year.of.isolation
 
-
-devtools::use_data(forest.birds, overwrite = TRUE)
+usethis::use_data(forest.birds, overwrite = TRUE)
 

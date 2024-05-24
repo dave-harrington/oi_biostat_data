@@ -1,28 +1,26 @@
 
+# this file creates the dataset hyperuricemia
+
 ####################################
 #
-#  hyperuricemia
 #  data available from the Dryad database
 # (doi:10.5061/dryad.n5j23).
 #
 ####################################
 
 
-## code to prepare `hyperuricemia` dataset goes here
 
-
-
-#
 library(readxl)
 
-hyperuricemia <- read_excel("data-raw/Mg intake and HU; raw data.xlsx")
+hyperuricemia <- read_excel("Mg intake and HU; raw data.xlsx")
 
 # rename columns
 
 colnames(hyperuricemia) <- c("sex", "age", "height", "weight", "bmi",
                              "uric.acid", "magnesium.intake")
 
-hyperuricemia$sex <- as.character(hyperuricemia$sex)
+# hyperuricemia$sex <- as.character(hyperuricemia$sex)
+
 hyperuricemia$sex <- as.factor(hyperuricemia$sex)
 levels(hyperuricemia$sex) = c("male", "female")
 
@@ -37,13 +35,15 @@ hyperuricemia$hu = 0
 a = hyperuricemia$sex == "male" &
   hyperuricemia$uric.acid >= 416
 
-# table(a)
+table(a)
 hyperuricemia$hu[a] = 1
 
 b = hyperuricemia$sex == "female" &
   hyperuricemia$uric.acid >= 360
-# table(b)
-#
 
+table(b)
+hyperuricemia$hu[b] = 1
+#
+table(hyperuricemia$sex, hyperuricemia$hu)
 
 usethis::use_data(hyperuricemia, overwrite = TRUE)
