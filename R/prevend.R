@@ -11,7 +11,7 @@
 #' @encoding UTF-8
 #' @format A tibble with 4095 rows and 31 variables:
 #' \describe{
-#'   \item{Casenr}{case number, numberic}
+#'   \item{Casenr}{case number, numeric}
 #'   \item{Age}{age in years, recorded at time of enrollment.}
 #'   \item{Gender}{Numeric vector: 0 = males; 1 = females.}
 #'   \item{Ethnicity}{Numeric vector: 0 = Western European; 1 = African; 2 = Asian; 3 = Other.}
