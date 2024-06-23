@@ -21,7 +21,7 @@
 #'     \item{id}{unique participant ID}
 #'     \item{age.group}{A factor with 4 levels: 21 and younger; 22 to 26; 27 to 37
 #'     38 and older}
-#'     \time{bmi}{a factor with 3 levels: Normal; Overweight/Obese; Underweight.
+#'     \item{bmi}{a factor with 3 levels: Normal; Overweight/Obese; Underweight.
 #'     These categories reflect older WHO coding and do not apply to all populations.}
 #'     \item{chronic.disease}{a factor with two levels: No, no other chronic disease; Yes, other
 #'     chronic diseases present in the participant}
@@ -47,7 +47,7 @@
 #'     multi-drug resistant TB; Yes, participant has been treated for MDR TB}
 #'     \item{diabetes}{a factor with 2 levels: No, participant does not have type 2
 #'     diabetes; Yes, participant does  have diabetes}
-#'     \item{trt.outcome}{a factor with 4 levesls denoting treatment outcome: Cured;
+#'     \item{trt.outcome}{a factor with 4 levels denoting treatment outcome: Cured;
 #'     Default (treatment was  interrupted before 2 months); Died; Still in treatment;
 #'     Transferred out}
 #'     }

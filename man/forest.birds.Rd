@@ -9,7 +9,6 @@ collected in the project described in Loyn 1987
 (https://www.researchgate.net/publication/279541149) but downloaded from Logan}
 \format{
 A tibble with 56 rows and 8 variables:
-\format{
 \describe{
 \item{\code{abundance}}{Numeric vector. Average number of forest birds observed
 in the patch, as calculated from several independent 20-minute counting sessions.}

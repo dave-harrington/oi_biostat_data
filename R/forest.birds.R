@@ -20,7 +20,6 @@
 #'  (typically the response of interest) and features of patch.
 #'
 #'@format A tibble with 56 rows and 8 variables:
-#'\format{
 #'\describe{
 #'     \item{\code{abundance}}{Numeric vector. Average number of forest birds observed
 #'     in the patch, as calculated from several independent 20-minute counting sessions.}
@@ -39,6 +38,5 @@
 #'     \item{\code{yrs.isolation}}{Numeric vector. Number of years of isolation at the
 #'     time study was conducted (1983).Computed as 1983 - year.of.isolation}
 #'    }
-#'
 
 "forest.birds"

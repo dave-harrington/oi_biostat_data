@@ -5,7 +5,7 @@
 #' @references www.amstat.org/publications/jse/v22n1/mickel.pdf Taylor, Stanley A.,
 #'   and Amy E. Mickel. Simpson's paradox: A data set and discrimination case study
 #'   exercise. Journal of Statistics Education 22.1 (2014).
-#' @source Data contained in supplement B of Taylor and Mickel
+#'   Data contained in supplement B of Taylor and Mickel.
 #' @description
 #' The dataset represents a sample of 1,000 DDS consumers
 #'     (out of a total population of approximately 250,000),
@@ -20,8 +20,7 @@
 #'     actual attributes of consumers."
 #'
 #' @format A tibble with 1000 rows and 6 variables:
-#' \format{
-#' \describe{
+#'    \describe{
 #'    \item{\code{id}}{Numeric, Unique identification code for each resident}
 #'    \item{\code{age.cohort}}{A factor variable, \code{0-5} years,
 #'      \code{6-12} years, \code{13-17} years, \code{18-21} years, \code{22-50} years,

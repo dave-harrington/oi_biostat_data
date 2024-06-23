@@ -8,10 +8,10 @@
 \format{
 A tibble with 130 rows and 3 variables:
 \describe{
-\item {body.temp}{body temperature in degrees Fahrenheit, numeric}
-\item{gender}{recorded gender of participant, a factor with levels
+\item{\code{body.temp}}{body temperature in degrees Fahrenheit, numeric}
+\item{\code{gender}}{recorded gender of participant, a factor with levels
 female, male}
-\item{heart.rate}{heart rate, in beats per minute, numeric}
+\item{\code{heart.rate}}{heart rate, in beats per minute, numeric}
 }
 }
 \source{
@@ -31,6 +31,6 @@ A Critical Appraisal of 98.6 Degrees F, the Upper Limit of the
 Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich,
 Journal of the American Medical Association, 268, 1578-1580.
 Shoemaker, A.L., College, C. (1996) What's Normal? -- Temperature, Gender, and
-Heart Rate Journal of Statistics Education, 4 (2)}
+Heart Rate Journal of Statistics Education, 4 (2)
 }
 \keyword{datasets}

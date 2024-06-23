@@ -8,7 +8,6 @@
 disbursements from the California Department of Developmental Services (DDS)}
 \format{
 A tibble with 1000 rows and 6 variables:
-\format{
 \describe{
 \item{\code{id}}{Numeric, Unique identification code for each resident}
 \item{\code{age.cohort}}{A factor variable, \code{0-5} years,
@@ -23,9 +22,6 @@ State on an individual annually, measured in USD}
 \code{Multi Race}, \code{Native Hawaiian}, \code{Other},
 \code{White not Hispanic}}
 }
-}
-\source{
-Data contained in supplement B of Taylor and Mickel
 }
 \usage{
 dds.discr
@@ -47,5 +43,6 @@ actual attributes of consumers."
 www.amstat.org/publications/jse/v22n1/mickel.pdf Taylor, Stanley A.,
 and Amy E. Mickel. Simpson's paradox: A data set and discrimination case study
 exercise. Journal of Statistics Education 22.1 (2014).
+Data contained in supplement B of Taylor and Mickel.
 }
 \keyword{datasets}
