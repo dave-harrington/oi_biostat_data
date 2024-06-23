@@ -3,7 +3,7 @@
 \docType{data}
 \name{sugar.levels.B}
 \alias{sugar.levels.B}
-\title{Simulated sugar (glucose) levels for 100 residents of a hypothetical neighborhood B}
+\title{Simulated fasting blood sugar levels for 100 residents of a hypothetical neighborhood B}
 \format{
 A tibble with 100 rows and 1 variable
 \describe{
@@ -13,6 +13,11 @@ A tibble with 100 rows and 1 variable
 sugar.levels.B
 }
 \description{
-Simulated sugar (glucose) levels for 100 residents of a hypothetical neighborhood B
+Simulated individual fasting blood sugar levels (nmol/L) drawn from
+a normal distribution. Generally, normal fasting blood sugar level are
+between 3.0 - 5.6 mg/dL; levels in the range 5.6 - 6.9 mg/dL are considered pre-diabetes.
+These data and sugar.levels.A are used in the Unit 4 lab of
+Introductory Statistics for the Life and Biomedical Sciences.  See
+\url{https://github.com/OI-Biostat/oi_biostat_labs} for the full set of labs.
 }
 \keyword{datasets}
