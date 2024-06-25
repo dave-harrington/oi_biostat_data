@@ -1,21 +1,25 @@
-source("http://bioconductor.org/biocLite.R")
-biocLite("biomaRt")
+# Code below used in 2018 no longer works.  Bioconductor link
+# has been replaced. Number of known genes has increased
+# Keeping original coding.mnra.rda for compatibility
+# Updated gene list and transcript lengths created using
+# Ensemble steps listed below as described on
+# https://useast.ensembl.org/info/data/biomart/how_to_use_biomart.html
 
-library(biomaRt)
-listEnsembl()
+# Dataset retrieved from Ensemble 25 June 2024, renamed
+# from mart_export.txt to mart_export_25jun2024.csv
 
-#see datasets available
-mart = useEnsembl("ENSEMBL_MART_ENSEMBL")
-listDatasets(mart)
 
-#attribute names
-library(biomaRt)
-ensembl = useEnsembl(biomart="ensembl", dataset="hsapiens_gene_ensembl")
-head(listAttributes(ensembl))
-attributes = listAttributes(ensembl)
+library(readr)
+mart.export <- read_csv("mart_export_25jun2024.csv")
+coding.mrna.2024 <- mart_export_25jun2024
 
-#filter for protein-coding transcripts
-filterlist <- list("protein_coding", c(1:21, "X", "Y"))
-coding.mrna <-getBM(attributes=c('chromosome_name', 'external_gene_name', 'external_transcript_name', 'transcript_length', 'description'), filters = c('transcript_biotype', 'chromosome_name'), values = filterlist, mart = ensembl)
+coding.mrna.24 = rename(coding.mrna.24,
+  chromosome_name = "Gene stable ID",
+  external_gene_name = "Chromosome/scaffold name",
+  external_transcript_name = "Transcript stable ID",
+  transcript_length = "Transcript length (including UTRs and CDS)",
+  description = "Gene description"
+)
 
-devtools::use_data(coding.mrna)
+
+usethis::use_data(coding.mrna.2024, overwrite = TRUE)
