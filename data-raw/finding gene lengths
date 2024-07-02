@@ -1,0 +1,16 @@
+https://bioinformatics.stackexchange.com/questions/8552/cds-length-for-each-human-gene
+
+
+4
+
+While I haven't found a way to limit the results to the canonical transcript only, you can get a list of genes, transcripts and their CDS lengths using Ensemble's BioMart. I have already set it up for you, you can see the results, and modify them, here (click on the "Results" link if you don't see them).
+
+Essentially, you just need to go to BioMart, and
+
+select "Ensembl Genes 96" (the number will change if the version changes) as the database and "uman Genes" as the dataset.
+
+Click on "Filters", and set Gene type to coding and Transcript type to protein_coding.
+
+From "Attributes", select whatever you want to see. The "CDS Length" is under "Structures".
+
+Note structures no long an option

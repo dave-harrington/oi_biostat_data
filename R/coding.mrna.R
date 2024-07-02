@@ -6,7 +6,7 @@
 #'	   now obsolete.  Dataset has been retained in the package for compatibility with labs 
 #'     exercises in Introduction to Statistics for the Life and Biomedical Sciences, Vu J, 
 #'     Harrington D.
-#'@docType(data)
+#'@docType data
 #'@format a dataframe with 79,105 rows and 5 columns:
 #' \describe{
 #'    \item{\code{chromosome_name}}{a character vector}
@@ -28,7 +28,7 @@
 #'
 #'@source{\url{http://www.ensembl.org/biomart/martview/}}
 #'
-#'@docType(data)
+#'@docType data
 #'@format a dataframe with 79,105 rows and 5 columns:
 #' \describe{
 #'    \item{\code{chromosome_name}}{a character vector, Ensemble label Chromosome/scaffold name}
