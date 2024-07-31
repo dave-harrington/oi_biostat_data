@@ -19,11 +19,10 @@ infant_mort_2022 <- read_excel("infant_mort_2022.xls",
 
 
 infant_mort_2022 <- infant_mort_2022 %>%
-  dplyr:: select(state_code, rate)
+  dplyr:: select(state_code, rate) %>%
+  mutate(state_code = if_else(state_code == "District of Columbia",
+                              "DC", state_code))
 
-
-a = infant_mort_2022$state_code == "District of Columbia"
-infant_mort_2022$state_code[a] <- "DC"
 
 infant_mort_2022 <- infant_mort_2022 %>%
   mutate(state_name = abbr2state(state_code)) %>%
