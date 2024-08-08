@@ -9,8 +9,12 @@ allergies}
 A data frame with 640 rows and 7 columns
 \describe{
 \item{\code{participant.ID}}{Character vector, unique identifier for each participant.}
-\item{\code{stratum}}{Factor, pre-randomization stratum of the participant,
-levels \code{SPT-Negative}, code{SPT-Positive}}
+\item{\code{stratum}}{Factor, outcome of a skin prick test (SPT) conducted
+before randomization, with levels \code{SPT-Negative}, participant
+shows no evidence of peanut allergy,  and \code{SPT-Positive}, evidence
+of a peanut allergy.  Participants were
+randomized separately within each stratum.  The primary analysis of the
+study is typically restricted to the SPT-Negative group.}
 \item{\code{treatment.group}}{Factor, randomized assignment for each participant,
 with levels \code{Peanut Avoidance} and \code{Peanut Consumption}}.
 \item{\code{age.months}}{Participant age in months at randomization.}

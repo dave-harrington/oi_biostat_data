@@ -38,7 +38,6 @@ LEAP <- LEAP %>%
          primary.ethnicity = "Primary Ethnicity",
          overall.60.outcome = "Overall V60 Outcome (OFC + Indeterm.)")
 
-# recode of "Missing" not working
 
 LEAP <- LEAP %>%
   mutate(stratum = if_else(stratum == "SPT-negative Stratum",
@@ -53,5 +52,7 @@ LEAP <- LEAP %>%
   mutate(primary.ethnicity = na_if(primary.ethnicity, "Missing")) %>%
   mutate(primary.ethnicity = droplevels(primary.ethnicity))
 
+
+# addmargins(table(LEAP$stratum, LEAP$overall.60.outcome, useNA = "ifany"))
 
 usethis::use_data(LEAP, overwrite = TRUE)

@@ -1,20 +1,18 @@
-#' A dataframe of 60 rows and 9 variables used to illustrate inference on
+#' A dataframe of 20,000 rows and 9 variables used to illustrate inference on
 #'    demographic characteristics
-#'@name cdc.samp
+#'@name cdc
 #' @docType data
 #' @source("http://www.openintro.org/stat/data/cdc.R")
 #'
 #' @description
-#' This dataset is a random sample of 60 individuals from 20,000 responses in
-#'     the dataset cdc, itself a random sample from the year
+#' This dataset with 9 variables is a random sample of 20,000 participants
+#' drawn from the 350,000 interviews from the year
 #'     2000 Behavioral Risk Factors Surveillance System (BRFSS)
 #'     (https://www.cdc.gov/brfss/index.html)
-#'     conducted by the US Centers for Disease Control. The dataset cdc
-#'     is available in this package and at OpenIntro.org. This random sample differs
-#'     from that posted on the OpenIntro labs,
-#'     https://www.openintro.org/data/index.php?data=cdc.samp.
+#'     conducted by the US Centers for Disease Control and Prevention. The data
+#'     are also availble at \url{http://www.openintro.org/stat/data/cdc.R}
 #'
-#'@format A tibble with 60 rows and 9 variables:
+#'@format A dataframe with 20,000 rows and 9 variables:
 #'\describe{
 #'    \item{\code{genhlth}}{a factor with levels \code{excellent}, \code{very good}
 #'     \code{good}, \code{fair}, \code{poor}}
@@ -31,4 +29,4 @@
 #'    \item{\code{gender}}{a factor with two levels \code{m} \code{f}}
 #'    }
 
-"cdc.samp"
+"cdc"

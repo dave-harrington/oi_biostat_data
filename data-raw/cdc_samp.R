@@ -2,8 +2,10 @@
 
 source("http://www.openintro.org/stat/data/cdc.R")
 
-#generates cdc.samp
+# generates cdc.samp
 #
+#  This random sample is not the same as the openintro sample
+#  posted at https://www.openintro.org/data/index.php?data=cdc.samp
 
 set.seed(6578, sample.kind = "Rounding")
 sample.size = 60
