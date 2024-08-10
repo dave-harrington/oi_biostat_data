@@ -30,10 +30,11 @@ cigarettes in their entire life and 0 otherwise.}
 cdc
 }
 \description{
-This dataset is a random sampoleof 20,000 participants drawn from the 350,000
-interviews from the year
+This dataset with 9 variables is a random sample of 20,000 participants
+drawn from the 350,000 interviews from the year
 2000 Behavioral Risk Factors Surveillance System (BRFSS)
 (https://www.cdc.gov/brfss/index.html)
-conducted by the US Centers for Disease Control.
+conducted by the US Centers for Disease Control and Prevention. The data
+are also availble at \url{http://www.openintro.org/stat/data/cdc.R}
 }
 \keyword{datasets}

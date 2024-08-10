@@ -48,7 +48,8 @@ colnames(infant_mort_2022)
 infant_mortality_2022 <- inner_join(infant_mort_2022, physicians_per_cap,
                   by = 'state_name')
 infant_mortality_2022 <- infant_mortality_2022 %>%
-  rename(infant_mortality_rate = rate)
+  rename(infant_mortality_rate = rate) %>%
+  rename(doctors = physicians_per_100000)
 
 
 usethis::use_data(infant_mortality_2022, overwrite = TRUE)

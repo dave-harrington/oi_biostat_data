@@ -49,7 +49,7 @@ physician <- read_excel("statabs_2010_physicians.xls",
 physician <- physician %>%
   select(state, doctors)
 
-census.gov <- inner_join(inf_mort, physician,
+census.2010 <- inner_join(inf_mort, physician,
                          by = "state")
 
-usethis::use_data(census.gov, overwrite = TRUE)
+usethis::use_data(census.2010, overwrite = TRUE)

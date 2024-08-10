@@ -30,11 +30,13 @@ cigarettes in their entire life and 0 otherwise.}
 cdc.samp
 }
 \description{
-This dataset is a random sample of 60 individuals from a larger dataset of
-20,000 in the Open Intro dataset.  The data were drawn from the the year
-2000 Behavioral Risk Factors Surveillance System (BRFSS) (https://www.cdc.gov/brfss/index.html)
-conducted by the US Centers for Disease Control.  This random sample differs
+This dataset is a random sample of 60 individuals from 20,000 responses in
+the dataset cdc, itself a random sample from the year
+2000 Behavioral Risk Factors Surveillance System (BRFSS)
+(https://www.cdc.gov/brfss/index.html)
+conducted by the US Centers for Disease Control. The dataset cdc
+is available in this package and at OpenIntro.org. This random sample differs
 from that posted on the OpenIntro labs,
-https://www.openintro.org/data/index.php?data=cdc.samp
+https://www.openintro.org/data/index.php?data=cdc.samp.
 }
 \keyword{datasets}

@@ -2,15 +2,16 @@ Package: oibiostat
 Type: Package
 Title: Data Package for OpenIntro Biostatistics, Introduction to Statistics
     for the Life and Biomedical Sciences
-Version: 0.3.0
+Version: 0.5.0
 Authors@R: c(person("Morgan", "Breitmeyer", email = "morganbreitmeyer@gmail.com", 
-    role = "aut"), 
+    role = c("aut")),
     person("Dave", "Harrington", email = "davidharrington@g.harvard.edu",
     role = c("aut", "cre")), 
     person("Julie", "Vu", email = "julievu777@gmail.com", role = c("aut")))
 Description: This package contains the datasets used in the OpenIntro Biostatistics 
-    text, Introduction to Statistics for the Life and Biomedical Sciences.
-License: GPl-3.
+    text Introduction to Statistics for the Life and Biomedical Sciences by Vu
+    and Harrington.
+License: use_gpl_license()
 RoxygenNote: 7.3.1
 Imports: tibble
 Depends: 
@@ -18,3 +19,4 @@ Depends:
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 LazyData: true
+LazyDataCompression:xz

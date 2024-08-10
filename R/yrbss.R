@@ -1,0 +1,49 @@
+#' Youth Risk Behavior Surveillance System (YRBSS)
+#'
+#' @docType data
+#'
+#' @references Çetinkaya-Rundel M, Diez D, Bray A, Kim A, Baumer B, Ismay C, Paterno
+#'     N, Barr C (2024). _openintro: Datasets and Supplemental Functions
+#'     from 'OpenIntro' Textbooks and Labs_. R package version 2.5.0,
+#'     <https://CRAN.R-project.org/package=openintro>.
+#'
+#' @source \url{https://www.cdc.gov/yrbs/data/}
+#'
+#' @description
+#' The yrbss dataset in this package was loaded from the package openintro
+#'     for use in the labs of Introduction to the Life and Biomedical Sciences.
+#'     From the openintro package: The YRBSS contains surveys conducted from 1991-2013 nationwide
+#'     for the United States as a whole and in multiple states and
+#'     districts individually.
+#'     In this version of the dataset, character variables have been converted to factors.The
+#'     source url for the CDC contains more recent data.
+#'
+#' @format A data frame with 13583 observations on 13 variables.
+#' \describe{
+#'     \item{\code{age}}{Numeric, Age of participant, ranging from 12 to 18}
+#'     \item{\code{gender}}{Factor, Sex of participant,  \code{male} or \code{female}}
+#'     \item{\code{grade}}{Factor, grade in high school}
+#'     \item{\code{hispanic}}{Factor, Hispanic enthnicity status with values \code{hispanic} or \code{not}}
+#'     \item{\code{race}}{ Factor with 5 levels, participant race with values
+#'        \code{American Indian or Alaska Native}, \code{Asian},
+#'        \code{Black or African American}, \code{Native Hawaiian or Other Pacific Islander}, \code{White}}
+#'    \item{\code{height}}{Numeric, self reported height in meters}
+#'    \item{\code{weight}}{Numeric, self reported weight in kgs}
+#'    \item{\code{helmet_12m}}{Factor with 6 levels, frequency of helmet use while
+#'        cycling in the 12 months preceding the survey, with levels \code{always}
+#'        \code{never}, \code{did not ride}, \code{most of the time},
+#'        \code{sometimes}, \code{rarely}}
+#'    \item{\code{text_while_driving_30d}}{During the 30 days preceding the survey, how frequently the participant texted or emailed while driving.}
+#'    \item{\code{hours_tv_per_school_day}}{The average number of hours of TV watched by the participant on a schoolday.}
+#'    \item{\code{strength_training_7d}}{Numeric, number of days during 7 days preceding
+#'        the survey,  the participant did exercises to strengthen or tone their muscles
+#'        (such as push-ups, sit-ups, or weight lifting).}
+#'    \item{\code{school_night_hours_sleep}}{Factor,  the number
+#'    of hours of sleep on an average school night, with levels ranging from \code{<5}
+#'    to \code{10+}}
+#'    \item{physically_active_7d}{Numeric, days per week the participant was active}
+#'   }
+#'
+
+"yrbss"
+

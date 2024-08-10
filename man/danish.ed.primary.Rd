@@ -49,7 +49,7 @@ danish.ed.primary
 Data from a prospective cohort study of triage scoring for an emergency
 department (ED).  The study examined whether the use of patient level
 measurements would improve an existing triage score. These data are the
-training data (called primary data in the manuscript) used for model building.
+training data (called primary data in the original manuscript) used for model building.
 some variable names have been changed for readability, but the data on
 21 variables for the 6,249 participants are otherwise unchanged.
 }

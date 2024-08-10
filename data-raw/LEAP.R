@@ -36,7 +36,7 @@ LEAP <- LEAP %>%
          age.months = "Age (months)",
          sex = "Sex (char)",
          primary.ethnicity = "Primary Ethnicity",
-         overall.60.outcome = "Overall V60 Outcome (OFC + Indeterm.)")
+         overall.V60.outcome = "Overall V60 Outcome (OFC + Indeterm.)")
 
 
 LEAP <- LEAP %>%
@@ -48,11 +48,9 @@ LEAP <- LEAP %>%
   mutate(treatment.group = as.factor(treatment.group)) %>%
   mutate(sex = as.factor(sex)) %>%
   mutate(primary.ethnicity = as.factor(primary.ethnicity)) %>%
-  mutate(overall.60.outcome = as.factor(overall.60.outcome)) %>%
+  mutate(overall.V60.outcome = as.factor(overall.V60.outcome)) %>%
   mutate(primary.ethnicity = na_if(primary.ethnicity, "Missing")) %>%
   mutate(primary.ethnicity = droplevels(primary.ethnicity))
 
-
-# addmargins(table(LEAP$stratum, LEAP$overall.60.outcome, useNA = "ifany"))
 
 usethis::use_data(LEAP, overwrite = TRUE)

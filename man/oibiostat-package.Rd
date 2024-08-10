@@ -6,7 +6,7 @@
 \alias{oibiostat-package}
 \title{oibiostat: Data Package for OpenIntro Biostatistics, Introduction to Statistics for the Life and Biomedical Sciences}
 \description{
-This package contains the datasets used in the OpenIntro Biostatistics text, Introduction to Statistics for the Life and Biomedical Sciences.
+This package contains the datasets used in the OpenIntro Biostatistics text Introduction to Statistics for the Life and Biomedical Sciences by Vu and Harrington.
 }
 \author{
 \strong{Maintainer}: Dave Harrington \email{davidharrington@g.harvard.edu}

@@ -17,7 +17,7 @@
 #'    \item{\code{state_name}}{Character vector vector, US State including the District of Columbia}
 #'    \item{\code{infant_mortality_rate}}{Numeric vector, number of deaths per 1000 live births between 1 day
 #'        and 1 year of age}
-#'    \item{\code{doctors}}{Numeric vector, number of  physicians in patient care per 100,000 population}
+#'    \item{\code{doctors}}{Numeric, number of  physicians in patient care per 100,000 population}
 #'   }
 
 "infant_mortality_2022"

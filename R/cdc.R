@@ -1,6 +1,6 @@
 #' A dataframe of 20,000 rows and 9 variables used to illustrate inference on
 #'    demographic characteristics
-#'@name cdc
+#' @name cdc
 #' @docType data
 #' @source("http://www.openintro.org/stat/data/cdc.R")
 #'
