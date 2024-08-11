@@ -11,7 +11,6 @@ Authors@R: c(person("Morgan", "Breitmeyer", email = "morganbreitmeyer@gmail.com"
 Description: This package contains the datasets used in the OpenIntro Biostatistics 
     text Introduction to Statistics for the Life and Biomedical Sciences by Vu
     and Harrington.
-License: use_gpl_license()
 RoxygenNote: 7.3.1
 Imports: tibble
 Depends: 
@@ -19,4 +18,5 @@ Depends:
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 LazyData: true
-LazyDataCompression:xz
+LazyDataCompression: xz
+License: GPL (>= 3)
