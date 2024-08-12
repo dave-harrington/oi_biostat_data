@@ -1,5 +1,10 @@
 # oi_biostat_data
-Data package for  the text OpenIntro Biostatistics
+Data package version 0.5.0 for Introduction to the Life and Biomedical
+Sciences, by Vu and Harrington.  
+
+This version updates version 0.3.0 by
+adding new datasets, revising the documentation on many of the datasets,
+and removing two outdated datasets, diabetes.prev and wdi.2010
 
 To install the 'oibiostat' package:
 
