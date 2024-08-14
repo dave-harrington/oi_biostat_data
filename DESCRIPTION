@@ -12,7 +12,7 @@ Description: This package contains the datasets used in the OpenIntro Biostatist
     text Introduction to Statistics for the Life and Biomedical Sciences by Vu
     and Harrington.
 RoxygenNote: 7.3.1
-Imports: tibble
+Imports: tibble, openintro, NHANES
 Depends: 
     R (>= 2.10)
 Encoding: UTF-8
