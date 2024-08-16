@@ -1,4 +1,4 @@
-#' United States 2010 infant mortality and physicians by state, including the District
+#' United States 2010 infant mortality and number of physicians by state, including the District
 #'   of Columbia
 #'
 #' @name census.2010
@@ -13,7 +13,7 @@
 #'    the package because they are used in the text Introduction to Statistics for the Life and
 #'    Biological Sciences (ISLBS).  More current data can be found at the US Centers for Disease Control
 #'    and Prevention (\url{https://www.cdc.gov/nchs/pressroom/sosmap/infant_mortality_rates/infant_mortality.htm}),
-#'    and in the data set infant_mort_2022.
+#'    and in the dataset infant_mort_2022.
 #'
 #' @format A data frame with 51 rows and 3 columns.
 #'\describe{

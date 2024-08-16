@@ -8,19 +8,19 @@ demographic characteristics}
 \format{
 A dataframe with 20,000 rows and 9 variables:
 \describe{
-\item{\code{genhlth}}{a factor with levels \code{excellent}, \code{very good}
+\item{\code{genhlth}}{Factor with levels \code{excellent}, \code{very good}
 \code{good}, \code{fair}, \code{poor}}
 \item{\code{exerany}}{Numeric vector; 1 if the respondent exercised in the
 past month and 0 otherwise.}
-\item{\code{hlthplan}}{Numeric vector; 1 if the respondent has some form
+\item{\code{hlthplan}}{Numeric; 1 if the respondent has some form
 of health coverage and 0 otherwise.}
 \item{\code{smoke100}}{Numeric; 1 if the respondent has smoked at least 100
 cigarettes in their entire life and 0 otherwise.}
 \item{\code{height}}{Numeric; respondent's height in inches.}
 \item{\code{weight}}{Numeric;  respondent's weight in pounds.}
 \item{\code{wtdesire}}{Numeric; respondent's desired weight in pounds.}
-\item{\code{age}}{Numeric; A numerical vector, respondent's age in years.}
-\item{\code{gender}}{a factor with two levels \code{m} \code{f}}
+\item{\code{age}}{Numeric;  respondent's age in years.}
+\item{\code{gender}}{Factor with two levels \code{m} \code{f}}
 }
 }
 \source{
@@ -35,6 +35,6 @@ drawn from the 350,000 interviews from the year
 2000 Behavioral Risk Factors Surveillance System (BRFSS)
 (https://www.cdc.gov/brfss/index.html)
 conducted by the US Centers for Disease Control and Prevention. The data
-are also availble at \url{http://www.openintro.org/stat/data/cdc.R}
+are also available at \url{http://www.openintro.org/stat/data/cdc.R}
 }
 \keyword{datasets}

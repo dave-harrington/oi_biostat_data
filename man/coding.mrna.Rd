@@ -4,7 +4,7 @@
 \name{coding.mrna}
 \alias{coding.mrna}
 \alias{coding.mrna.2018}
-\title{Protein coding transcript lengths for 79,105 genes retrieved 27 January 2018}
+\title{Protein coding transcript lengths for 79,105 genes, retrieved 27 January 2018}
 \format{
 a dataframe with 79,105 rows and 5 columns:
 \describe{
@@ -21,8 +21,8 @@ coding.mrna
 \description{
 Dataset with gene names, gene description, transcript name, transcript
 length and chromosome location.  Data downloaded from Ensemble via a Bioconductor script
-now obsolete.  Dataset has been retained in the package for compatibility with labs
-exercises in Introduction to Statistics for the Life and Biomedical Sciences, Vu J,
-Harrington D.
+now obsolete.  Dataset has been retained in the package for compatibility with labs and
+exercises in Introduction to Statistics for the Life and Biomedical Sciences, Vu and
+Harrington.  More current data is contained in coding.mrna.2024.
 }
 \keyword{datasets}

@@ -5,7 +5,7 @@
 \alias{coding.mrna.2024}
 \title{Protein coding transcript lengths for 99,775 genes retrieved 25 January 2024}
 \format{
-a dataframe with 79,105 rows and 5 columns:
+a data frame with 79,105 rows and 5 columns:
 \describe{
 \item{\code{chromosome_name}}{a character vector, Ensemble label Chromosome/scaffold name}
 \item{\code{external_gene_name}}{a character vector, Ensemble label Gene stable ID}

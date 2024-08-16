@@ -6,7 +6,7 @@
 \title{A dataframe of 56 rows and 8 variables used to study the relationship
 between species abundance of birds and habitat features. The data were
 collected in the project described in Loyn 1987
-(https://www.researchgate.net/publication/279541149) but downloaded from Logan}
+(\url{https://www.researchgate.net/publication/279541149})}
 \format{
 A tibble with 56 rows and 8 variables:
 \describe{
@@ -29,7 +29,7 @@ time study was conducted (1983).Computed as 1983 - year.of.isolation}
 }
 }
 \source{
-https://users.monash.edu.au/~murray/BDAR/  Listed under chapter 9
+https://users.monash.edu.au/~murray/BDAR/  Listed under chapter 9 datasets
 }
 \usage{
 forest.birds
@@ -48,6 +48,7 @@ Loyn R.H. 1987 Effects of patch area and habitat on bird abundances,
 species numbers and tree health in fragmented Victorian forests."  In Nature
 Conservation: The Role of Remnants of Native Vegetation.
 Saunders DA, Arnold GW, Burbridge AA, and Hopkins AJM eds. Surrey Beatty and Sons,
-Chipping Norton, NSW, 65-77, 1987.
+Chipping Norton, NSW, 65-77, 1987.  Logan, M 2011 Biostatistical Design and
+Analysis Using R.  Wiley-Blackwell, Chapter 9
 }
 \keyword{datasets}

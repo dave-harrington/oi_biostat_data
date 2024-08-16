@@ -4,7 +4,7 @@
 \name{arenosa}
 \alias{arenosa}
 \title{A dataframe of 1088 rows and 13 variables used to study the association
-genes related to cold responsiveness in two populations}
+genes related to cold responsiveness in two populations of plants}
 \format{
 A tibble with 1088 rows and 13 variables:
 \describe{
@@ -24,7 +24,7 @@ A tibble with 1088 rows and 13 variables:
 }
 }
 \source{
-K Bomblies lab.
+K Bomblies Harvard University lab.
 }
 \usage{
 arenosa

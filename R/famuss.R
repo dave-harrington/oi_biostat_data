@@ -13,13 +13,13 @@
 #'
 #'@description
 #' This dataset is a  subset of the larger data set from the Functional SNPs
-#' Associated with Muscle Size and Strength (FAMuSS) by Thompson
+#'     Associated with Muscle Size and Strength (FAMuSS) by Thompson
 #'     et.al. It contains demographic, response and coding for the SNP for the
 #'     study participants.  Unlike the data in the previous version of the
-#'     oi_biostat_data package, this dataset retains the missing values.  The data
-#'     are discussed in the Foulkes text. Strength was measured in both dominant
+#'     \code{oibiostat} data package, this dataset retains the missing values.  The data
+#'     are also discussed in the Foulkes text. Strength was measured in both dominant
 #'     and non-dominant arms before and after resistance training.
-#'     The particular gene of interest here was ACTN3, the "sports gene."
+#'     The particular gene of interest was ACTN3, the "sports gene."
 #'
 #'@format A tibble with 1397 rows and 10 variables
 #'\describe{

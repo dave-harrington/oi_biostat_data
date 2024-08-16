@@ -8,8 +8,8 @@
 #'     \url{https://doi.org/10.1111/jeb.12271}
 #'
 #' @description
-#' From February to April 2013, the study team studied various populations of frog
-#'     who live between 2035 to 3494 m above sea level in the eastern Tibetan Plateau.
+#' From February to April 2013, the study team studied various populations of frogs
+#'     living between 2035 to 3494m above sea level in the eastern Tibetan Plateau.
 #'     They located breeding ponds at various altitudes, and at each one,
 #'     obtained a small sample of freshly laid egg clutches.
 #'     They counted the number of eggs and weighed the clutch to determine egg weight,

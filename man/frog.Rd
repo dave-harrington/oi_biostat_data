@@ -22,8 +22,8 @@ A data frame with 431 observations on the following 6 variables.
 frog
 }
 \description{
-From February to April 2013, the study team studied various populations of frog
-who live between 2035 to 3494 m above sea level in the eastern Tibetan Plateau.
+From February to April 2013, the study team studied various populations of frogs
+living between 2035 to 3494m above sea level in the eastern Tibetan Plateau.
 They located breeding ponds at various altitudes, and at each one,
 obtained a small sample of freshly laid egg clutches.
 They counted the number of eggs and weighed the clutch to determine egg weight,

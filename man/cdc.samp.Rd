@@ -8,7 +8,7 @@ demographic characteristics}
 \format{
 A tibble with 60 rows and 9 variables:
 \describe{
-\item{\code{genhlth}}{a factor with levels \code{excellent}, \code{very good}
+\item{\code{genhlth}}{Factor with levels \code{excellent}, \code{very good}
 \code{good}, \code{fair}, \code{poor}}
 \item{\code{exerany}}{Numeric vector; 1 if the respondent exercised in the
 past month and 0 otherwise.}
@@ -19,8 +19,8 @@ cigarettes in their entire life and 0 otherwise.}
 \item{\code{height}}{Numeric; respondent's height in inches.}
 \item{\code{weight}}{Numeric;  respondent's weight in pounds.}
 \item{\code{wtdesire}}{Numeric; respondent's desired weight in pounds.}
-\item{\code{age}}{Numeric; A numerical vector, respondent's age in years.}
-\item{\code{gender}}{a factor with two levels \code{m} \code{f}}
+\item{\code{age}}{Numeric;  respondent's age in years.}
+\item{\code{gender}}{Factor with two levels \code{m} \code{f}}
 }
 }
 \source{

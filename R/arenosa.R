@@ -1,5 +1,5 @@
 #' A dataframe of 1088 rows and 13 variables used to study the association
-#'   genes related to cold responsiveness in two populations
+#'   genes related to cold responsiveness in two populations of plants
 #' @name arenosa
 #' @docType data
 #' @references Pierre Baduel, Brian Arnold, Cara M. Weisman, Ben Hunter, Kirsten Bomblies,
@@ -7,8 +7,7 @@
 #'     Stress-Tolerance Variation in Arabidopsis arenosa, Plant Physiology,
 #'     Volume 171, Issue 1, May 2016, Pages 437–451,
 #'     https://doi.org/10.1104/pp.15.01875https://doi.org/10.1104/pp.15.01875
-#' @source K Bomblies lab.
-#'
+#' @source K Bomblies Harvard University lab.
 #'
 #' @description
 #' Published results used RNA-Seq to investigate how cold responsiveness differs
