@@ -3,7 +3,7 @@
 \docType{data}
 \name{infant_mortality_2022}
 \alias{infant_mortality_2022}
-\title{United States 2022 infant mortality and physicians by state, including the District
+\title{United States 2022 infant mortality and number of physicians by state, including the District
 of Columbia}
 \format{
 A data frame with 51 rows and 3 columns.

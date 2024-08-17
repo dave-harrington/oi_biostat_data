@@ -1,4 +1,4 @@
-#' United States 2022 infant mortality and physicians by state, including the District
+#' United States 2022 infant mortality and number of physicians by state, including the District
 #'   of Columbia
 #'
 #' @docType data

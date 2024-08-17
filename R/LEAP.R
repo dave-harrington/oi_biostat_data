@@ -4,12 +4,12 @@
 #' @docType data
 #' @description
 #' This study examined whether early exposure to peanuts
-#'      increased tolerance and and protection from developing peanut
+#'      increased tolerance and and protection from developing a peanut
 #'      allergy in children who are allergic to eggs or who have severe eczema.
 #'      Participants between 4 and 11 months old were randomized to either avoid
 #'      versus consume peanut
 #'      based products during the first three years of life.  The longer title
-#'      is Induction of Tolerance Through Early Introduction of Peanut in
+#'      of the study is Induction of Tolerance Through Early Introduction of Peanut in
 #'      High-Risk Children and can be found in \url{https://clinicaltrials.gov/} as
 #'      study NCT00329784. More variables are available at the site in the source.
 #'

@@ -3,21 +3,9 @@
 \docType{data}
 \name{hyperuricemia.samp}
 \alias{hyperuricemia.samp}
-\title{Random sample of 500 cases from the hyperuricemia dataset. Data with uric acid levels by magnesium and other predictors}
+\title{Random sample of 500 cases from the hyperuricemia dataset.}
 \format{
-A tibble with 500 rows and 8 variables:
-\describe{
-\item{sex}{Factor with levels "male" and "female}
-\item{age}{Measured in years}
-\item{height}{Measured in cm}
-\item{weight}{Measured in kg}
-\item{bmi}{kg/m**2, weight divided bydew height in meters squared}
-\item{uric.acid}{measured in micromolar/liter. Hyperuricemia (HU) was defined
-as uric acid >= 416 micromolar/L for males and >= 360 micromolar/L for females.}
-\item{magnesium.intake}{Daily magnesium intake from a food frequency questionnaire,
-measured in mg/day}
-\item{hu}{numeric, 0 = hyperuricemia absent, 1 = hyperuricemia present}
-}
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 500 rows and 8 columns.
 }
 \source{
 \url{doi:10.5061/dryad.n5j23}
@@ -26,6 +14,7 @@ measured in mg/day}
 hyperuricemia.samp
 }
 \description{
-Random sample of 500 cases from the hyperuricemia dataset. Data with uric acid levels by magnesium and other predictors
+Random sample from the hyperuricemia data.  See the larger
+dataset for variable definitions.
 }
 \keyword{datasets}

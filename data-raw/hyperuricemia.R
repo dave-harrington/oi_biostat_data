@@ -35,15 +35,17 @@ hyperuricemia$hu = 0
 a = hyperuricemia$sex == "male" &
   hyperuricemia$uric.acid >= 416
 
-table(a)
+#  table(a)
 hyperuricemia$hu[a] = 1
 
 b = hyperuricemia$sex == "female" &
   hyperuricemia$uric.acid >= 360
 
-table(b)
+# table(b)
 hyperuricemia$hu[b] = 1
 #
-table(hyperuricemia$sex, hyperuricemia$hu)
+#table(hyperuricemia$sex, hyperuricemia$hu)
+hyperuricemia$hu <- as.factor(hyperuricemia$hu)
+levels(hyperuricemia$hu) <- c("no", "yes")
 
 usethis::use_data(hyperuricemia, overwrite = TRUE)
