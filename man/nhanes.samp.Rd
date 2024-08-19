@@ -22,4 +22,9 @@ of the US population. The dataset nhanes.samp contains data from a random sample
 200 from NHANES and all 76 variables.  See the NHANES package for variable definitions
 and coding.
 }
+\references{
+Pruim R (2015). \emph{NHANES: Data from the US National Health and
+Nutrition Examination Study}. R package version 2.1.0,
+\url{https://CRAN.R-project.org/package=NHANES}.
+}
 \keyword{datasets}

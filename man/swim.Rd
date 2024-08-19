@@ -8,15 +8,15 @@
 A dataframe with 12 rows and 6 columns
 \describe{
 \item{\code{swimmer.number}}{Numeric, index of a swimmer}
-\item{\code{swimmer.sex}}{Factor, with levels "male", "female"}
+\item{\code{swimmer.sex}}{Factor, with levels \code{male}, \code{female}}
 \item{\code{swimmer.class}}{Factor, classification of swimmer,
-with levels "swimmer", "triathlete"}
+with levels \code{swimmer}, \code{triathlete}}
 \item{\code{wet.suit.velocity}}{Numeric, maximum velocity wearing a
 wet suit, in meters/sec }
 \item{\code{swim.suit.velocity}}{Numeric, maximum velocity wearing
 a swim suit, in meters/sec}
-\item{\code{velocity.diff}}{Numeric, wet.suit.velocity
-- swim.suit.velocity}
+\item{\code{velocity.diff}}{Numeric, \code{wet.suit.velocity
+         - swim.suit.velocity}}
 }
 }
 \source{
@@ -30,7 +30,8 @@ Data from an experiment comparing maximum swim velocities
 when swimmers are wearing a wetsuit versus a regular swimsuit.
 Paired measurements on the velocities on each of 12 participants.
 Data includes swimmer's biological sex and indication of whether
-the swimmer was a triathlete or just a swimmer.
+the swimmer was a triathlete or just a swimmer.  These data are also
+contained in the package Lock5Data
 }
 \references{
 Table 3 of De Lucas, Ricardo Dantas, et al. The effects of wet

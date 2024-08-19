@@ -66,3 +66,16 @@
 #' @source \url{http://doi.org/10.5061/dryad.6qs53}
 
 "prevend"
+
+#' Random sample of size 500 from the prevend dataset
+#'
+#' @name prevend.samp
+#' @docType data
+#' @references{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115755}
+#' @description
+#' Random sample of size 500 from the 4,095 cases in the prevend dataset with all
+#'     31 variables.  See the parent dataset (prevend) for data source and variable
+#'     definitions
+
+"prevend.samp"
+

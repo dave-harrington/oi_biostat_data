@@ -24,12 +24,12 @@
 #'
 #' @format   A data frame with 431 observations on the following 6 variables.
 #'\describe{
-#'    \item{\code{altitude}}{Altitude of study site in meters above sea level.}
-#'    \item{\code{latitude}}{Latitude of study site measured in degrees.}
-#'    \item{\code{clutch.size}}{Estimated number of eggs in clutch.}
-#'    \item{\code{body.size}}{Length of mother frog who laid the egg clutch in cm.}
-#'    \item{\code{clutch.volume}}{Volume of egg clutch in mm^3.}
-#'    \item{\code{egg.size}}{Average diameter of an individual egg to the 0.01mm.}
+#'    \item{\code{altitude}}{Numeric, altitude of study site in meters above sea level.}
+#'    \item{\code{latitude}}{Numeric, latitude of study site measured in degrees.}
+#'    \item{\code{clutch.size}}{Numeric, estimated number of eggs in clutch.}
+#'    \item{\code{body.size}}{Numeric, length of mother frog who laid the egg clutch in cm.}
+#'    \item{\code{clutch.volume}}{Numeric, volume of egg clutch in mm^3.}
+#'    \item{\code{egg.size}}{Numeric, average diameter of an individual egg to the 0.01mm.}
 #'    }
 #'
 "frog"

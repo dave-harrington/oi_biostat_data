@@ -8,38 +8,40 @@ scale for a Danish emergency department}
 \format{
 A tibble with 1293 rows and 18 variables:
 \describe{
-\item{id}{unique participant ID}
-\item{age.group}{A factor with 4 levels: 21 and younger; 22 to 26; 27 to 37
-38 and older}
-\item{bmi}{a factor with 3 levels: Normal; Overweight/Obese; Underweight.
+\item{\code{id}}{Character vector, unique participant ID}
+\item{\code{age.group}}{A factor with 4 levels: \code{21 and younger}; \code{22 to 26};
+\code{27 to 37}; \code{38 and older}}
+\item{\code{bmi}}{a factor with 3 levels: \code{Normal}; \code{Overweight/Obese};
+\code{Underweight}.
 These categories reflect older WHO coding and do not apply to all populations.}
-\item{chronic.disease}{a factor with two levels: No, no other chronic disease; Yes, other
+\item{\code{chronic.disease}}{a factor with two levels: \code{No},
+no other chronic disease; \code{Yes}, other
 chronic diseases present in the participant}
-\item{hiv.test}{Outome of HIV test, a factor with 3 levels: Negative, Positive,
-Test not Done}
-\item{marital.status}{a factor with 4 levels: Divorced/separated;
-Married/cohabitating; Single; Widowed}
-\item{poverty}{socioeconomic status, a factor with two levels: No, not living in
-extreme poverty; Yes, living in extreme poverty}
-\item{prison.history}{a factor with 2 levels: No, no history of having been
-incarcerated; Yes, participant has been incarcerated}
-\item{education}{a factor with 2 levels: No, participant does not have at least a
-secondary school education; Yes, participant does have a secondary school education}
-\item{tobacco.use}{a factor with 3 levels: Currently smokes; Never smoked; Used
-to Smoke}
-\item{alcohol.use}{a factor with 2 levels: No, participant does not use alcohol
-at least weekly; Yes, participant does use alcohol at least weekly}
-\item{drug.use}{a factor with 2 levels:No, history of illicit drug use; Yes, a
-history of illicit drug use}
-\item{rehab.history}{a factor with 2 levels: No, no history of residence in a
-rehabilitation facility; Yes, prior residence in a rehabilitation facility}
-\item{mdr.tb}{a factor with two levels: No, participant has not been treated for
-multi-drug resistant TB; Yes, participant has been treated for MDR TB}
-\item{diabetes}{a factor with 2 levels: No, participant does not have type 2
-diabetes; Yes, participant does  have diabetes}
-\item{trt.outcome}{a factor with 4 levels denoting treatment outcome: Cured;
-Default (treatment was  interrupted before 2 months); Died; Still in treatment;
-Transferred out}
+\item{\code{hiv.test}}{Outcome of HIV test, a factor with 3 levels: \code{Negative};
+\code{Positive}; \code{Test not Done}}
+\item{\code{marital.status}}{a factor with 4 levels: \code{Divorced/separated};
+\code{Married/cohabitating}; \code{Single}; \code{Widowed}}
+\item{\code{poverty}}{socioeconomic status, a factor with two levels: \code{No}, not living in
+extreme poverty; \code{Yes}, living in extreme poverty}
+\item{\code{prison.history}}{a factor with 2 levels: \code{No}, no history of having been
+incarcerated; \code{Yes}, participant has been incarcerated}
+\item{\code{education}}{a factor with 2 levels: \code{No}, participant does not have at least a
+secondary school education; \code{Yes}, participant does have a secondary school education}
+\item{\code{tobacco.use}}{a factor with 3 levels: \code{Currently smokes};
+\code{Never smoked}; \code{Used to Smoke}}
+\item{\code{alcohol.use}}{a factor with 2 levels: \code{No}, participant does not use alcohol
+at least weekly; \code{Yes}, participant does use alcohol at least weekly}
+\item{\code{drug.use}}{a factor with 2 levels: \code{No}, history of illicit drug use;
+\code{Yes}, a history of illicit drug use}
+\item{\code{rehab.history}}{a factor with 2 levels: \code{No}, no history of residence in a
+rehabilitation facility; \code{Yes}, prior residence in a rehabilitation facility}
+\item{\code{mdr.tb}}{a factor with two levels: \code{No}, participant has not been treated for
+multi-drug resistant TB; \code{Yes}, participant has been treated for MDR TB}
+\item{\code{diabetes}}{a factor with 2 levels: \code{No}, participant does not have type 2
+diabetes; \code{Yes}, participant does  have diabetes}
+\item{\code{trt.outcome}}{a factor with 4 levels denoting treatment outcome: \code{Cured};
+\code{Default} (treatment was  interrupted before 2 months); \code{Died};
+\code{Still in treatment}; \code{Transferred out}}
 }
 }
 \source{
@@ -51,8 +53,9 @@ tb.interruption
 \description{
 The Lackey study was a prospective cohort study of adult smear-positive
 tuberculosis (TB) patients enrolled between January 2010 and December 2011
-with no prior TB disease.  Data from the cohort was used to revised a scoring
-system for treatment interrupted before the complete courses of therapy. The analysis
+with no prior TB disease.  Data from the cohort was used to model the association
+of several predictors with a treatment interruption
+before the complete courses of therapy. The analysis
 of treatment outcome in original article uses methods for binary data.  A time-to-event
 analysis might be more appropriate but the dataset does not have data sufficient
 for that analysis.

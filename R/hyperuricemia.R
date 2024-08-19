@@ -22,3 +22,12 @@
 
 "hyperuricemia"
 
+#' Random sample of 500 cases from the hyperuricemia dataset.
+#'
+#'
+#' @description Random sample from the hyperuricemia data.  See the larger
+#'     dataset for data source and variable definitions.
+#'
+#'
+
+"hyperuricemia.samp"

@@ -34,8 +34,11 @@ A data frame with 217 rows and 11 variables from the  World Development Indicato
 from the World Bank.  The rows contain only country level data.  Regional groupings such as the European Union
 (EU) and financial groupings such as low income countries have been eliminated.  World Bank Country codes (iso2c, iso3c)
 have been dropped.
-The data were downloaded from the World Bank on 17 July 2024 using the R package WDI, version 2.8.8.
-These data update the dataset wdi.2011 in the previous version of the package.  Some variable names have
+The data were downloaded from the World Bank on 17 July 2024 using the R package WDI, version 2.8.8,
+Arel-Bundock V (2022). \emph{WDI: World Development Indicators and Other World Bank Data}. R package version 2.7.8,
+\url{https://CRAN.R-project.org/package=WDI}.
+These data update the dataset wdi.2011 in the previous version of the package, which is outdated and
+has been removed.  Some variable names have
 been changed for readability and some constructed variables (e.g., log(gdp)) have not been included.  Missing values
 have been retained.
 }

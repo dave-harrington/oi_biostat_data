@@ -3,10 +3,12 @@
 \docType{data}
 \name{sugar.levels.A}
 \alias{sugar.levels.A}
-\title{Simulated fasting blood sugar levels for 100 residents of a hypothetical neighborhood A}
+\title{Simulated fasting blood sugar levels for 100 residents of a hypothetical neighborhood
+labeled A}
 \format{
 A tibble with 100 rows and 1 variable
 \describe{
+\item{\code{fasting.blood.sugar}}{Numeric, simulated fasting blood sugar in nmol/L}
 }
 }
 \usage{

@@ -8,10 +8,10 @@
 \format{
 A tibble with 130 rows and 3 variables:
 \describe{
-\item{\code{body.temp}}{body temperature in degrees Fahrenheit, numeric}
-\item{\code{gender}}{recorded gender of participant, a factor with levels
-female, male}
-\item{\code{heart.rate}}{heart rate, in beats per minute, numeric}
+\item{\code{body.temp}}{Numeric, body temperature in degrees Fahrenheit}
+\item{\code{gender}}{Factor, recorded gender of participant, with levels
+\code{female}, \code{male}}
+\item{\code{heart.rate}}{Numeric, heart rate, in beats per minute}
 }
 }
 \source{
