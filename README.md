@@ -3,7 +3,7 @@ Version 0.5.0 of the data package oibiostat, used in the text and exercises of I
 
 This version updates version 0.3.0 by
 adding new datasets, revising the documentation on many of the datasets,
-and removing two outdated datasets, diabetes.prev and wdi.2011
+and removing one outdated dataset (diabetes.prev)
 
 To install the 'oibiostat' package:
 
