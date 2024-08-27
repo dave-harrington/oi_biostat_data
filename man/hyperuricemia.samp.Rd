@@ -11,7 +11,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 hyperuricemia.samp
 }
 \description{
-Random sample from the hyperuricemia data.  See the larger
+Random sample from the hyperuricemia data.  See the parent
 dataset for data source and variable definitions.
 }
 \keyword{datasets}

@@ -1,6 +1,9 @@
 library(tidyverse)
 
 # https://opportunityinsights.org/data/
+# Tables found under Mobility Report Cards: Income Segregation and Intergenerational
+# Mobility Across Colleges in the United States
+#
 # merging tables 2 and 10 on super_opeid variable
 # table 2: baseline cross-sectional estimates of parents', childrens' income distributions by college.
 # table 2 (mrc_table2.csv) downloaded from  the Opportunity Insights Data  tab:
@@ -17,7 +20,7 @@ mrc2 <- read_csv("mrc_table2.csv")
 #select variables
 #
 mrc10.subset <- mrc10 %>%
-  select(super_opeid, name, region, state, tier, tier_name, type, iclevel, barrons,
+  dplyr::select(super_opeid, name, region, state, tier, tier_name, type, iclevel, barrons,
          exp_instr_pc_2000, exp_instr_pc_2013, hbcu,
          ipeds_enrollment_2000, ipeds_enrollment_2013,
          sticker_price_2000, sticker_price_2013,
@@ -32,7 +35,7 @@ mrc10.subset <- mrc10 %>%
          pct_publicsocial_2000, pct_stem_2000, pct_socialscience_2000, pct_tradepersonal_2000)
 
 mrc2.subset <- mrc2 %>%
-  select(super_opeid, mr_kq5_pq1, mr_ktop1_pq1, par_mean, par_median,
+  dplyr::select(super_opeid, mr_kq5_pq1, mr_ktop1_pq1, par_mean, par_median,
          par_q1, par_q2, par_q3, par_q4, par_q5,
          par_top10pc, par_top5pc, par_top1pc, par_toppt1pc,
          k_mean, k_median, k_median_nozero, k_0inc,
@@ -53,7 +56,7 @@ colleges <- inner_join(mrc10.subset, mrc2.subset, by = c("super_opeid" = "super_
 # trim dataset for ISLBS use
 #
 colleges <- colleges %>%
-  select(name, region, state, tier, tier_name, type,
+  dplyr::select(name, region, state, tier, tier_name, type,
          exp_instr_pc_2013, ipeds_enrollment_2013, sticker_price_2013,
          scorecard_netprice_2013,
          grad_rate_150_p_2013, avgfacsal_2013, sat_avg_2013, endowment_pc_2000,
@@ -61,30 +64,40 @@ colleges <- colleges %>%
          par_q1, par_q2, par_q3, par_q4, par_q5,
          par_top5pc, par_top1pc,
          k_median, k_top5pc, k_top1pc) %>%
-  dplyr::filter(tier <= 8)
+         dplyr::filter(tier <= 11)
 
-colleges$tier_name <- factor(colleges$tier, levels = 1:8,
+colleges$tier_name <- factor(colleges$tier, levels = 1:11,
                              labels = c("Ivy Plus", "Other elite schools (private and public)",
                                         "Highly selective public", "Highly selective private",
                                         "Selective public", "Selective private",
                                         "Nonselective 4-year public",
-                                        "Nonselective 4-year private"))
+                                        "Nonselective 4-year private",
+                                        "Two-year (public and private not-for-profit)",
+                                        "Four-year for-profit",
+                                        "Two-year for-profit"))
 
-colleges$region <- factor(colleges$region,
-                          labels = c("Northeast", "Midwest",
-                                     "South", "Northwest"))
+colleges$region <- factor(colleges$region)
+
 colleges$type <- factor(colleges$type,
                         labels = c("public", "private non-profit",
                                    "for-profit"))
 
-colleges$tier <- NULL
-
 
 
 opp_insights_colleges <- colleges
+opp_insights_colleges$tier <- NULL
 
 usethis::use_data(opp_insights_colleges, overwrite = TRUE)
 
+# subset data, remove unused factor levels
+#
+opp_insights_colleges_4year <- colleges %>%
+  dplyr::filter(tier <= 8) %>%
+  mutate(type = factor(type))
+
+opp_insights_colleges_4year$tier <- NULL
+
+usethis::use_data(opp_insights_colleges_4year, overwrite = TRUE)
 
 
-# save(opp_insights_colleges, file = "opp_insights_colleges.Rdata")
+

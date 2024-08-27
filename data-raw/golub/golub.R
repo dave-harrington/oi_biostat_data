@@ -37,13 +37,3 @@ aml.test.rows = sample(aml.rows, 5, replace = FALSE) #randomly select 5 aml pati
 #set.seed(5011)
 
 set.seed(5011, sample.kind = "Rounding")
-all.test.rows = sample(all.rows, 5, replace = FALSE) #randomly select 5 all patients
-
-test.patients = c(aml.test.rows, all.test.rows)
-
-golub.test <- golub[test.patients,]
-golub.train <- golub[-test.patients,]
-
-usethis::use_data(golub.test, overwrite = TRUE)
-usethis::use_data(golub.train, overwrite = TRUE)
-
