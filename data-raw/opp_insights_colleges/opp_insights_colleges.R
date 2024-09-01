@@ -56,7 +56,7 @@ colleges <- inner_join(mrc10.subset, mrc2.subset, by = c("super_opeid" = "super_
 # trim dataset for ISLBS use
 #
 colleges <- colleges %>%
-  dplyr::select(name, region, state, tier, tier_name, type,
+  dplyr::select(super_opeid, name, region, state, tier, tier_name, type,
          exp_instr_pc_2013, ipeds_enrollment_2013, sticker_price_2013,
          scorecard_netprice_2013,
          grad_rate_150_p_2013, avgfacsal_2013, sat_avg_2013, endowment_pc_2000,

@@ -7,6 +7,11 @@
 \format{
 A dataframe with 2153 rows and 26 columns
 \describe{
+\item{\code{super_opeid}}{Numeric, a college or university identifier constructed
+by the Opportunity Insights team based on tax records.
+It is similar but not identical to the U.S. Department of Education’s Office of
+Postsecondary Education ID (OPEID) and different from the ID in the  Integrated
+Postsecondary Education Data System (IPEDS).}
 \item{\code{name}}{Character vector, college name}
 \item{\code{region}}{Factor, with levels \code{1} (Northeast),
 \code{2} (Midwest), \code{3} (South), \code{4} (West)}
