@@ -1,5 +1,5 @@
-#' A dataframe of 1293 rows and 18 variables used to model a triage scoring
-#'   scale for a Danish emergency department
+#' A dataframe of 1293 rows and 18 variables used to study variables associated
+#'    with early termination of treatment for tuberculosis
 #' @name tb.interruption
 #' @docType data
 #' @references Lackey, Brian, et al. "Patient characteristics associated with
