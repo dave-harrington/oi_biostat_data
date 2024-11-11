@@ -3,8 +3,8 @@
 \docType{data}
 \name{tb.interruption}
 \alias{tb.interruption}
-\title{A dataframe of 1293 rows and 18 variables used to model a triage scoring
-scale for a Danish emergency department}
+\title{A dataframe of 1293 rows and 18 variables used to study variables associated
+with early termination of treatment for tuberculosis}
 \format{
 A tibble with 1293 rows and 18 variables:
 \describe{
