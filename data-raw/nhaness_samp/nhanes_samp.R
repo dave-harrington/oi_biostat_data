@@ -2,7 +2,7 @@
 
 library(NHANES)
 data(NHANES)
-set.seed(5011)
+set.seed(5011, sample.kind = "Rounding")
 
 # nhanes.samp
 
@@ -19,7 +19,7 @@ usethis::use_data(nhanes.samp.adult, overwrite = TRUE)
 # nhanes.samp.adult.500
 
 library(NHANES)
-set.seed(5011)
+set.seed(5011, sample.kind = "Rounding")
 adult = NHANES$Age >=21
 nhanes.adult = NHANES[adult,]
 nhanes.samp.adult.500 = nhanes.adult[sample(nrow(nhanes.adult), size = 500),]
