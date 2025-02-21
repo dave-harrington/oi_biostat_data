@@ -2,7 +2,7 @@
 #'
 #' @name prevend
 #' @docType data
-#' @references{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115755}
+#' @references \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115755}
 #' @description
 #' Data from the Prevention of REnal and Vascular END-stage Disease (PREVEND) study,
 #'     which took place in the Netherlands.  The study collected various demographic and
@@ -71,7 +71,7 @@
 #'
 #' @name prevend.samp
 #' @docType data
-#' @references{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115755}
+#' @references \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115755}
 #' @description
 #' Random sample of size 500 from the 4,095 cases in the prevend dataset with all
 #'     31 variables.  See the parent dataset (prevend) for data source and variable

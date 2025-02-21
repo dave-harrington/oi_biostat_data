@@ -2,7 +2,7 @@
 #' @name thermometry
 #'
 #' @docType data
-#' @source{http://jse.amstat.org/v4n2/datasets.shoemaker.html}
+#' @source \url{http://jse.amstat.org/v4n2/datasets.shoemaker.html}
 #'
 #' @references Mackowiak, P. A., Wasserman, S. S., and Levine, M. M. (1992),
 #'      A Critical Appraisal of 98.6 Degrees F, the Upper Limit of the

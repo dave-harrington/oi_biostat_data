@@ -1,8 +1,8 @@
 #' A dataframe of 1000 rows and 6 variables used to study the association
 #'   disbursements from the California Department of Developmental Services (DDS)
-#' @name dds.dscr
+#' @name dds.discr
 #' @docType data
-#' @references www.amstat.org/publications/jse/v22n1/mickel.pdf Taylor, Stanley A.,
+#' @references  Taylor, Stanley A.,
 #'   and Amy E. Mickel. Simpson's paradox: A data set and discrimination case study
 #'   exercise. Journal of Statistics Education 22.1 (2014).
 #'   Data contained in supplement B of Taylor and Mickel.

@@ -2,7 +2,7 @@
 #'    demographic characteristics
 #' @name cdc
 #' @docType data
-#' @source("http://www.openintro.org/stat/data/cdc.R")
+#' @source \url{http://www.openintro.org/stat/data/cdc.R}
 #'
 #' @description
 #' This dataset with 9 variables is a random sample of 20,000 participants
