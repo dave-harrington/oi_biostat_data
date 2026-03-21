@@ -1,11 +1,23 @@
 # oi_biostat_data
-Data package for  the text OpenIntro Biostatistics
 
-To install the 'oibiostat' package:
 
-```r
+Version 0.5.0 of the data package oibiostat, used in the text and exercises of Introductory
+Statistics for the Life and Biomedical Sciences (ISLBS), by Vu and Harrington is in the supplements branch.
+
+This version updates version 0.3.0 by
+adding new datasets, revising the documentation of many datasets,
+and removing outdated datasets (diabetes.prev and wdi.2011). The dataset
+wdi_2022 has replaced wdi.2011. Please use this version.
+
+To install the updated 'oibiostat' package:
+
 install.packages("devtools")
-devtools::install_github("OI-Biostat/oi_biostat_data")
+devtools::install_github("OI-Biostat/oi_biostat_data", ref ="supplements")
+
+Note that all of the datasets in Version 0.5.0 are now in the development version of the package openintro.  To load development version of openintro, use 
+
+install.packages("devtools")
+devtools::install_github("OpenIntro/openintro")
 
 
 # random sampling
