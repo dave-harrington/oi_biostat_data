@@ -12,6 +12,7 @@ wdi_2022 has replaced wdi.2011. Please use this version.
 To install the updated 'oibiostat' package:
 
 install.packages("devtools")
+
 devtools::install_github("OI-Biostat/oi_biostat_data", ref ="supplements")
 
 Note that all of the datasets in Version 0.5.0 are now in the development version of the package openintro.  To load the development version of openintro, use 
